@@ -124,7 +124,9 @@ if st.button("Calcular divisão"):
                         pagador, valor_pagar = pagamentos.pop(0)
 
                         transferencia = min(valor_pagar, valor_receber)
-                        st.write(f"- {pagador} deve transferir {int(transferencia):,} gp para {recebedor}")
+                        st.write(f"- {pagador} transfer {int(transferencia)} to {recebedor}")
+                        
+                        
 
                         valor_pagar -= transferencia
                         valor_receber -= transferencia
