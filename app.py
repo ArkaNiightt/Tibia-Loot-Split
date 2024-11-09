@@ -137,7 +137,7 @@ if st.button("Calcular divisão"):
                             recebimentos.insert(0, (recebedor, valor_receber))
 
                 st.subheader("💰 Profit total:")
-                st.write(f"{int(saldo_total):.}gp ({int(lucro_medio):.} gp cada)")
+                st.write(f"{int(saldo_total):,}gp ({int(lucro_medio):,} gp cada)")
             else:
                 st.error("Nenhum membro foi encontrado. Verifique o formato do conteúdo.")
         except Exception as e:
