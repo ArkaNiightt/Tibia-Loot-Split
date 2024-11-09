@@ -18,7 +18,7 @@ Este é um aplicativo desenvolvido em Python utilizando Streamlit para ajudar a 
    ```
 3. **Execute a aplicação** utilizando o comando:
    ```sh
-   streamlit run nome_do_arquivo.py
+   streamlit run app.py
    ```
 4. **Preencha os campos necessários**:
    - Cole o conteúdo da sessão de caçada de Tibia no campo de texto.
